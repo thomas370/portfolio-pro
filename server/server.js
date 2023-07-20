@@ -5,18 +5,14 @@ const path = require('path');
 const app = express();
 
 app.use(express.json());
-app.use(cors({
-    origin: 'https://thomasbortolato.fr', // Remplacez par l'URL de votre front-end
-    methods: ['GET', 'POST'],
-    credentials: true
-  }));
+app.use(cors());
 
 app.use(express.static(path.join(__dirname, '../build')));
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, '../build', 'index.html'));
 });
 
-app.post('/', (req, res) => {
+app.post('/mailer', (req, res) => {
     const { name, email, subject, message } = req.body;
 
     const transporter = nodemailer.createTransport({
@@ -47,8 +43,9 @@ app.post('/', (req, res) => {
     });
 });
 
-let ip = process.env.IP || 'localhost';
-let port = process.env.PORT || 3001;
+let ip = process.env.IP || '0.0.0.0';  // Utilisez l'IP fournie par alwaysdata ou écoutez sur toutes les interfaces
+let port = process.env.PORT || 8100;   // Utilisez le port fourni par alwaysdata ou 8100 par défaut
+
 
 app.listen(port, ip, () => {
     console.log('Server is running on ' + ip + ':' + port);

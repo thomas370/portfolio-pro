@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin,faGithub,faTwitter} from '@fortawesome/free-brands-svg-icons';
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import style from './NavBar.module.scss';
 import { Link } from "react-router-dom";
@@ -56,6 +56,7 @@ const NavBar = () => {
                         <li className={style.navIcon}>
                             <a href="https://github.com/thomas370" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
                             <a href={"https://www.linkedin.com/in/thomas-bortolato/"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
+                            <a href={"https://twitter.com/toollkyll"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
                             <a href={"https://www.malt.fr/profile/thomasbortolato"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faStar} /></a>
                             <a onClick={toggleLanguage}>
                                 <img src={i18n.language === 'es' ? france : spain} alt={i18n.language} />

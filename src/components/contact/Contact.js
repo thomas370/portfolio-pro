@@ -8,31 +8,29 @@ const Contact = () => {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [subject, setSubject] = useState('');
+    const [subject, setSubject] = useState('0');
     const [message, setMessage] = useState('');
     const [emailSent, setEmailSent] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        axios.post('https://thomasbortolato.fr/mailer', {
+        axios.post('/mailer', {
             name: name,
             email: email,
             subject: subject,
             message: message
         })
-            .then(response => {
-                console.log(response.data);
-                setName('');
-                setEmail('');
-                setMessage('');
-                setEmailSent(true);
-            })
-            .catch(error => {
-                console.log(error);
-            });
-    };
+        .then(res => {
+            console.log(res);
+            setEmailSent(true);
 
+            setName('');
+            setEmail('');
+            setSubject('0');
+            setMessage('');
+        })
+    };
     return (
         <section className={style.contact} id="contact">
             <h2>{t('contact.name')}</h2>
@@ -41,7 +39,7 @@ const Contact = () => {
                 <form onSubmit={handleSubmit}>
                     <input type="text" placeholder={t('contact.Prenom')}  value={name} onChange={e => setName(e.target.value)} />
                     <input type="email" placeholder="Email" value={email} onChange={e => setEmail(e.target.value)} />
-                    <select onChange={e => { setSubject(e.target.value); }}>
+                    <select value={subject} onChange={e => setSubject(e.target.value)}>
                         <option value="0">Sujet</option>
                         <option value="1">{t('contact.option1')}</option>
                         <option value="2">{t('contact.option2')}</option>
