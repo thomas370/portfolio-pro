@@ -1,0 +1,107 @@
+@import '../../assets/scss/_colors.scss';
+@import '../../assets/scss/_typos.scss';
+@import '../../assets/scss/_normalize.scss';
+@import '../../assets/responsive/_responsive.scss';
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: $buttonBlue;
+  color: $LightBlue;
+  .presentationText {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    h2{
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      font-family: Roboto, sans-serif;
+    }
+    p{
+      color: $white;
+      font-size: 1.2rem;
+      max-width: 500px;
+      font-family: Roboto, sans-serif;
+    }
+    .cv{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      a {
+        text-decoration: none;
+        color: $white;
+
+        button:first-child {
+          margin-right: 10px;
+          width: 150px;
+          height: 40px;
+          line-height: 42px;
+          padding: 0;
+          border: none;
+          color: $white;
+          border-radius: 5px;
+          background-color: $LightBlue;
+          transition: all 0.5s ease-in-out;
+        }
+        :hover{
+          cursor: pointer;
+        }
+      }
+      button:last-child{
+        width: 50px;
+        height: 40px;
+        line-height: 42px;
+        padding: 0;
+        border: none;
+        color: $white;
+        border-radius: 5px;
+        background-color: $LightBlue;
+        transition: all 0.3s ease-in-out;
+        icon{
+            margin-right: 10px;
+        }
+      }
+      :hover{
+        cursor: pointer;
+      }
+    }
+  }
+  .presentationImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      margin: 50px 0;
+    }
+  }
+}
+
+@include tablet{
+  .presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .presentationText{
+      h2{
+        font-size: 2rem;
+      }
+      p{
+        font-size: 1.5rem;
+        font-family: Roboto, sans-serif;
+      }
+    }
+    .presentationImage{
+      img{
+        width: 400px;
+        height: 400px;
+        margin-left: 20px;
+      }
+    }
+  }
+
+}

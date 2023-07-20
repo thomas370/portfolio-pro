@@ -1,0 +1,108 @@
+@import '../../assets/scss/_colors.scss';
+@import '../../assets/scss/_typos.scss';
+@import '../../assets/scss/_normalize.scss';
+@import '../../assets/responsive/_responsive.scss';
+
+.contact{
+  background-color: $buttonBlue;
+  padding: 50px 0;
+  h2{
+    color: $LightBlue;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+  }
+  p{
+    color: $white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+  }
+  .contactForm{
+    //centrer le formulaire dans la page en column
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form{
+        display: flex;
+        flex-direction: column;
+      input{
+        width: 300px;
+        margin: 10px;
+        border-radius: 10px;;
+        padding: 10px;
+        border: 1px solid $buttonBlue;
+      }
+      select{
+        width: 320px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #fff;
+        border: 1px solid $buttonBlue;
+        padding: 10px;
+
+      }
+      textarea{
+        width: 300px;
+        height: 100px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid $buttonBlue;
+        padding: 10px;
+      }
+      button{
+        width: 320px;
+        margin: 10px 10px 50px 10px;
+        border-radius: 10px;
+        border: none;
+        padding: 10px;
+        background-color: $LightBlue;
+        color: $white;
+        font-size: 1.2rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+    }
+  }
+  @include tablet {
+    .contactForm{
+      form{
+        input{
+          width: 500px;
+        }
+        select{
+          width: 520px;
+        }
+        textarea{
+          width: 500px;
+        }
+        button{
+          width: 520px;
+        }
+      }
+    }
+  }
+
+  @include desktop {
+    .contactForm{
+      form{
+        input{
+          width: 700px;
+        }
+        select{
+          width: 720px;
+        }
+        textarea{
+          width: 700px;
+        }
+        button{
+          width: 720px;
+        }
+      }
+    }
+  }
+}

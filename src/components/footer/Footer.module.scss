@@ -1,0 +1,83 @@
+@import '../../assets/scss/_colors.scss';
+@import '../../assets/scss/_typos.scss';
+@import '../../assets/scss/_normalize.scss';
+@import '../../assets/responsive/_responsive.scss';
+
+.footer {
+  padding: 20px;
+  background-color: $MarinBlue;
+  .footerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+      text-align: center;
+      font-size: 2rem;
+      color: $LightBlue;
+      font-family: Roboto, sans-serif;
+    }
+    .footerCenter{
+      h3{
+        color: $white;
+        text-align: center;
+        font-family: Roboto, sans-serif;
+      }
+        p{
+          color: $white;
+          text-align: center;
+          font-family: Roboto, sans-serif;
+        }
+      ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        li{
+          a{
+            color: $white;
+            text-decoration: none;
+            font-size: 2rem;
+
+            &:hover{
+              color: $LightBlue;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+    .footerRight{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      p{
+        color: $white;
+        font-size: 1rem;
+        font-family: Roboto, sans-serif;
+      }
+      a{
+        color: $white;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-family: Roboto, sans-serif;
+        &:hover{
+          color: $LightBlue;
+        }
+      }
+    }
+  }
+  @include tablet {
+    .footerText{
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .footerCenter{
+        ul{
+          li{
+            margin: 10px;
+          }
+        }
+      }
+    }
+  }
+}

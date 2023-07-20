@@ -1,0 +1,152 @@
+@import '../../assets/scss/_colors.scss';
+@import '../../assets/scss/_typos.scss';
+@import '../../assets/scss/_normalize.scss';
+@import '../../assets/responsive/_responsive.scss';
+
+nav {
+  background-color: $buttonBlue;
+  padding: 10px;
+  .barre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a{
+      color: $white;
+      font-size: 1em;
+      text-decoration: none;
+      font-family: Roboto, sans-serif;
+    }
+
+    .icon {
+      color: $white;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+
+  .navbarCollapseHidden {
+    display: none;
+
+    &.navbarCollapse {
+      display: block;
+    }
+  }
+
+  .navbarNav {
+    list-style: none;
+    padding: 0;
+    .navItem {
+      display: flex;
+      flex-direction: column;
+      margin: 5px 0;
+      align-items: center;
+      font-family: Roboto, sans-serif;
+      font-weight: 300;
+      padding-bottom: 5px;
+      cursor: pointer;
+      span {
+        color: $white;
+        text-decoration: none;
+        font-size: 1em;
+        max-width: 150px;
+      }
+    }
+    .navIcon{
+        display: flex;
+        flex-direction: column;
+        margin: 5px 0;
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+        padding-bottom: 5px;
+      align-items: center;
+      :hover{
+        color: $LightBlue;
+      }
+        a {
+            color: $white;
+            text-decoration: none;
+            font-size: 1.6em;
+            max-width: 50px;
+            margin: 5px 0;
+        ;
+          img{
+            width: 30px;
+            height: 30px;
+          }
+        }
+    }
+  }
+}
+
+@include tablet {
+  header {
+    background-color: $buttonBlue;
+    nav {
+      margin: 0 3em;
+      display: flex;
+      justify-content: space-between;
+
+      .barre {
+        a {
+          font-size: 1em;
+        }
+
+      }
+
+      .icon {
+        display: none;
+      }
+
+      .navbarCollapseHidden {
+        display: flex;
+      }
+
+      .navbarNav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .navItem {
+          display: flex;
+          flex-direction: row;
+          margin: 0 10px;
+          font-family: Roboto, sans-serif;
+          font-weight: 300;
+          padding-bottom: 5px;
+          :hover{
+            border-bottom: 2px solid $LightBlue;
+          }
+          a{
+            color: $white;
+            text-decoration: none;
+            font-size: 1em;
+            margin: 0 10px ;
+          }
+        }
+        .navIcon{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin: 0 10px;
+            font-family: Roboto, sans-serif;
+            font-weight: 300;
+            padding-bottom: 5px;
+            :hover{
+              color: $LightBlue;
+            }
+            a{
+                color: $white;
+                text-decoration: none;
+                font-size: 1.5em;
+                margin: 0 10px ;
+            }
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+      }
+    }
+  }
+}

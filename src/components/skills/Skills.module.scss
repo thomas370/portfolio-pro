@@ -1,0 +1,84 @@
+@import '../../assets/scss/_colors.scss';
+@import '../../assets/scss/_typos.scss';
+@import '../../assets/scss/_normalize.scss';
+@import '../../assets/responsive/_responsive.scss';
+
+.skills {
+  padding: 100px 0;
+  background-color: $buttonBlue;
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: $LightBlue;
+    font-family: Roboto, sans-serif;
+  }
+  .swiper-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    height: 800px;
+  }
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.75);
+  }
+  .skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $MarinBlue;
+    border-radius: 10px;
+    img {
+      width: 150px;
+      height: 150px;
+      margin-top: 1rem;
+      object-fit: cover;
+    }
+    p {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 1rem;
+      color: $white;
+      font-family: Roboto, sans-serif;
+    }
+  }
+  @include tablet {
+    .swiper-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .swiper-slide {
+      width: 300px;
+      background-color: $MarinBlue;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    .skill {
+      width: 250px;
+      height: 250px;
+      img {
+        width: 55%;
+        height: 55%;
+      }
+      p {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: 1rem;
+        color: $white;
+        font-family: Roboto, sans-serif;
+      }
+    }
+  }
+}
