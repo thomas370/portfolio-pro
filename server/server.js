@@ -3,6 +3,7 @@ const nodemailer = require('nodemailer');
 const cors = require('cors');
 const path = require('path');
 const app = express();
+const dotenv = require('dotenv');
 
 app.use(express.json());
 app.use(cors());
@@ -16,12 +17,12 @@ app.post('/mailer', (req, res) => {
     const { name, email, subject, message } = req.body;
 
     const transporter = nodemailer.createTransport({
-        host: 'smtp-bortolato.alwaysdata.net',
+        host: process.env.SNTP_HOST,
         port: 587,
         secure: false,
         auth: {
             user: 'thomasbortolato5@thomasbortolato.fr',
-            pass: 'i;?7N%,xY3=Q?M3'
+            pass: process.env.PASS_MAILER
         }
     });
 
