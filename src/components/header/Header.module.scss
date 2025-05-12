@@ -6,20 +6,19 @@
 .header{
   padding: 150px 0;
   background-color: $MarinBlue;
-
   .headerText {
     text-align: center;
-
+    margin:  0 10px;
     h1 {
       color: $LightBlue;
       font-size: 3rem;
-      font-weight: 700;
       margin: 0 0 10px 0;
       padding: 10px 10px;
-      font-family: Courgette, cursive;
-      //mettre des bordures sur le texte sans prendre toute la longueur de la page
-        display: inline-block;
-        border: 2px solid $LightBlue;
+      font-weight: normal;
+      font-family: Hind Vadodara, serif;
+      display: inline-block;
+      border: 2px solid $LightBlue;
+      border-radius: 10px
     }
 
     h2 {
@@ -28,14 +27,10 @@
       font-weight: 500;
       margin: 0;
       padding: 0 0 30px 0;
-      font-family: Roboto, sans-serif;
+      font-family: josefin Sans, sans-serif;
 
       span {
         color: $white;
-      }
-
-      :hover {
-        font-weight: 700;
       }
     }
 
@@ -50,6 +45,8 @@
       border-radius: 5px;
       background-color: $LightBlue;
       transition: all 0.5s ease-out;
+      font-weight: bold;
+      font-family: josefin Sans, sans-serif;
       &:hover {
         color: $LightBlue;
         background: transparent;

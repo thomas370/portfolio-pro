@@ -21,7 +21,7 @@ app.post('/mailer', (req, res) => {
         secure: false,
         auth: {
             user: 'thomasbortolato5@thomasbortolato.fr',
-            pass: 'XKG#b5rkirr@AFX4'
+            pass: 'i;?7N%,xY3=Q?M3'
         }
     });
 
@@ -44,7 +44,7 @@ app.post('/mailer', (req, res) => {
 });
 
 let ip = process.env.IP || '0.0.0.0';  // Utilisez l'IP fournie par alwaysdata ou écoutez sur toutes les interfaces
-let port = process.env.PORT || 8100;   // Utilisez le port fourni par alwaysdata ou 8100 par défaut
+let port = process.env.PORT || 587;   // Utilisez le port fourni par alwaysdata ou 8100 par défaut
 
 
 app.listen(port, ip, () => {

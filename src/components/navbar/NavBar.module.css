@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -310,7 +312,7 @@ template {
 }
 
 nav {
-  background-color: #393E46;
+  background-color: #222831;
   padding: 10px;
 }
 nav .barre {
@@ -322,7 +324,8 @@ nav .barre a {
   color: #f3f0f0;
   font-size: 1em;
   text-decoration: none;
-  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-family: josefin Sans, sans-serif;
 }
 nav .barre .icon {
   color: #f3f0f0;
@@ -357,22 +360,20 @@ nav .navbarNav .navItem span {
 }
 nav .navbarNav .navIcon {
   display: flex;
-  flex-direction: column;
-  margin: 5px 0;
+  margin: 5px;
   font-family: Roboto, sans-serif;
   font-weight: 300;
   padding-bottom: 5px;
   align-items: center;
-}
-nav .navbarNav .navIcon :hover {
-  color: #e3ab27;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
 }
 nav .navbarNav .navIcon a {
   color: #f3f0f0;
   text-decoration: none;
   font-size: 1.6em;
   max-width: 50px;
-  margin: 5px 0;
+  margin: 5px 0.5rem;
 }
 nav .navbarNav .navIcon a img {
   width: 30px;
@@ -381,7 +382,7 @@ nav .navbarNav .navIcon a img {
 
 @media (min-width: 768px) {
   header {
-    background-color: #393E46;
+    background-color: #222831;
   }
   header nav {
     margin: 0 3em;
@@ -406,11 +407,11 @@ nav .navbarNav .navIcon a img {
     display: flex;
     flex-direction: row;
     margin: 0 10px;
-    font-family: Roboto, sans-serif;
-    font-weight: 300;
+    font-weight: bold;
+    font-family: josefin Sans, sans-serif;
     padding-bottom: 5px;
   }
-  header nav .navbarNav .navItem :hover {
+  header nav .navbarNav .navItem:hover {
     border-bottom: 2px solid #e3ab27;
   }
   header nav .navbarNav .navItem a {

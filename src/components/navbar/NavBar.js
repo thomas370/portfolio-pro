@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import {faLinkedin,faGithub,faTwitter} from '@fortawesome/free-brands-svg-icons';
-import { faStar } from "@fortawesome/free-solid-svg-icons";
 import style from './NavBar.module.scss';
 import { Link } from "react-router-dom";
 import spain from "../../assets/images/spain.png";
@@ -42,10 +41,10 @@ const NavBar = () => {
                 <div className={isOpen ? style.navbarCollapse : style.navbarCollapseHidden}>
                     <ul className={style.navbarNav}>
                         <li className={style.navItem}>
-                            <span onClick={() => scrollToSection('competences')}>Compétences</span>
+                            <span onClick={() => scrollToSection('xp')}>Expériences</span>
                         </li>
                         <li className={style.navItem}>
-                            <span onClick={() => scrollToSection('xp')}>Expériences</span>
+                            <span onClick={() => scrollToSection('competences')}>Compétences</span>
                         </li>
                         <li className={style.navItem}>
                             <span onClick={() => scrollToSection('Projets')}>Projets</span>
@@ -54,12 +53,14 @@ const NavBar = () => {
                             <span onClick={() => scrollToSection('contact')}>Contact</span>
                         </li>
                         <li className={style.navIcon}>
-                            <a href="https://github.com/thomas370" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} /></a>
-                            <a href={"https://www.linkedin.com/in/thomas-bortolato/"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /></a>
-                            <a href={"https://twitter.com/toollkyll"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
-                            <a href={"https://www.malt.fr/profile/thomasbortolato"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faStar} /></a>
-                            <a onClick={toggleLanguage}>
-                                <img src={i18n.language === 'es' ? france : spain} alt={i18n.language} />
+                            <a href="https://github.com/thomas370" target="_blank"
+                               rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub}/></a>
+                            <a href={"https://www.linkedin.com/in/thomas-bortolato/"} target="_blank"
+                               rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
+                            <a href={"https://twitter.com/toollkyll"} target="_blank"
+                               rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter}/></a>
+                            <a href='#' onClick={toggleLanguage}>
+                                <img src={i18n.language === 'es' ? france : spain} alt={i18n.language}/>
                             </a>
                         </li>
                     </ul>

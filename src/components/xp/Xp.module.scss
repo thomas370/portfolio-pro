@@ -5,14 +5,14 @@
 
 .xp {
   background-color: $buttonBlue;
-  padding: 10px 0;
+  padding: 10px 10px;
 
   h2 {
-    font-size: 1.5rem;
+    color: $LightBlue;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
     text-align: center;
-    color: $LightBlue;
-    font-family: Roboto, sans-serif;
+    font-family: josefin Sans, sans-serif;
   }
 }

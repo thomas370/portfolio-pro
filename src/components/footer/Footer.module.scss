@@ -5,7 +5,7 @@
 
 .footer {
   padding: 20px;
-  background-color: $MarinBlue;
+  background-color: $buttonBlue;
   .footerText {
     display: flex;
     flex-direction: column;
@@ -14,18 +14,21 @@
       text-align: center;
       font-size: 2rem;
       color: $LightBlue;
-      font-family: Roboto, sans-serif;
+      font-weight: bold;
+      font-family: josefin Sans, sans-serif;
     }
     .footerCenter{
       h3{
         color: $white;
         text-align: center;
-        font-family: Roboto, sans-serif;
+        font-weight: bold;
+        font-family: josefin Sans, sans-serif;
       }
         p{
           color: $white;
           text-align: center;
-          font-family: Roboto, sans-serif;
+          font-weight: normal;
+          font-family: josefin Sans, sans-serif;
         }
       ul{
         list-style: none;
@@ -53,13 +56,15 @@
       p{
         color: $white;
         font-size: 1rem;
-        font-family: Roboto, sans-serif;
+        font-weight: normal;
+        font-family: josefin Sans, sans-serif;
       }
       a{
         color: $white;
         text-decoration: none;
         font-size: 1.2rem;
-        font-family: Roboto, sans-serif;
+        font-weight: normal;
+        font-family: josefin Sans, sans-serif;
         &:hover{
           color: $LightBlue;
         }

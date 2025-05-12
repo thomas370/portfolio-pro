@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import style from './Presentation.module.scss';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -10,9 +10,6 @@ if (process.env.NODE_ENV !== 'test') Modal.setAppElement('#root')
 
 const Presentation = () => {
     const { t } = useTranslation();
-    const [modalIsOpen, setModalIsOpen] = useState(false);
-    const closeModal = () => setModalIsOpen(false);
-    const openModal = () => setModalIsOpen(true);
 
     const download = () => {
         const link = document.createElement('a');
@@ -33,7 +30,7 @@ const Presentation = () => {
                 </div>
             </div>
             <div className={style.presentationImage}>
-                <img src="./logo_thomas.png" alt="Thomas BORTOLATO"/>
+                <img src="./profil-thomas.png" alt="Thomas BORTOLATO"/>
             </div>
         </section>
     );

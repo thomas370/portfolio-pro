@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -314,7 +316,7 @@ template {
   flex-direction: column;
   align-items: center;
   padding: 50px;
-  background-color: #393E46;
+  background-color: #222831;
   color: #e3ab27;
 }
 .presentation .presentationText {
@@ -323,15 +325,16 @@ template {
 }
 .presentation .presentationText h2 {
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: bold;
   margin-bottom: 1rem;
-  font-family: Roboto, sans-serif;
+  font-family: josefin Sans, sans-serif;
 }
 .presentation .presentationText p {
   color: #f3f0f0;
+  line-height: 2rem;
   font-size: 1.2rem;
   max-width: 500px;
-  font-family: Roboto, sans-serif;
+  font-family: josefin Sans, sans-serif;
 }
 .presentation .presentationText .cv {
   display: flex;
@@ -353,6 +356,8 @@ template {
   border-radius: 5px;
   background-color: #e3ab27;
   transition: all 0.5s ease-in-out;
+  font-family: josefin Sans, sans-serif;
+  font-weight: bold;
 }
 .presentation .presentationText .cv a :hover {
   cursor: pointer;
@@ -384,6 +389,15 @@ template {
   height: 300px;
   border-radius: 50%;
   margin: 50px 0;
+  transition: all 0.5s ease-in-out;
+}
+.presentation .presentationImage img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.presentation .presentationImage img:active {
+  transform: scale(0.9);
+  transition: transform 0.2s ease-out;
 }
 
 @media (min-width: 768px) {

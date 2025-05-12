@@ -9,19 +9,19 @@ i18n.use(initReactI18next).init({
                     name: 'Thomas BORTOLATO',
                     title: 'Desarrollador Web',
                     titleDetail: 'Full-Stack',
-                    button: 'Realice su proyecto',
+                    button: 'contactarme',
                 },
                 presentation: {
                     heading: '¿Quién soy yo?',
-                    about1: 'Me llamo Thomas BORTOLATO, tengo 21 años y soy desarrollador web Full-Stack.',
-                    about2: 'Apasionado por la creación de aplicaciones web intuitivas, aporto mi experiencia en el desarrollo de experiencias de usuario de alta calidad. Buscando nuevos y emocionantes proyectos, estoy disponible para discutir su proyecto.',
+                    about1: 'Me llamo Thomas BORTOLATO, tengo 22 años y soy desarrollador web Full-Stack.',
+                    about2: 'Apasionado por la creación de aplicaciones web intuitivas, aporto mi experiencia en el desarrollo de experiencias de usuario de alta calidad !',
                     button: 'Ver mi CV',
                 },
                 xp: {
                     name: 'Mi experiencia',
                      experience1:{
                         title1: 'Desarrollador web Full-Stack',
-                        date1: '2020 - Actualidad',
+                        date1: 'abril 2020 - octubre 2023',
                          location1: 'La tour du pin, Francia',
                         description1: 'Desarrollo de una interfaz de administración para MobileBoost. Utilizando tecnologías como HTML, CSS, JavaScript y PHP/MySQL.',
                      },
@@ -55,6 +55,10 @@ i18n.use(initReactI18next).init({
                 },
                 projects: {
                     name: 'Mis Proyectos',
+                    description: 'Detalles del proyecto',
+                    projet1: 'DevPlanTech es un blog de desarrollo personal y profesional. Está realizado con Symfony 6 y MySQL. Es responsive y tiene un back-office para la gestión de los artículos.',
+                    projet2: 'Hypana es un sitio para clases de Runing Yoga. Está realizado con React.js y SCSS.',
+
                 },
                 contact: {
                     name: 'Contacto',
@@ -72,6 +76,23 @@ i18n.use(initReactI18next).init({
                 footer: {
                     heading: 'Contacto',
                     link: 'Política de privacidad',
+                },
+                services: {
+                     name: 'Mis Servicios',
+                    titre1: 'Paquete básico',
+                    titre2: 'Paquete intermedio',
+                    titre3: 'Sitio a medida',
+                    phrase1: 'Diseño adaptable: optimizado para todos los tipos de pantalla (ordenador, tableta, móvil)',
+                    phrase2: 'Contenido: Hasta 5 páginas incluidas (Ejemplo: Inicio, Acerca de, Servicios, Blog, Contacto)',
+                    phrase3: 'Funcionalidades adicionales: Integración de formularios de contacto y conexión directa a perfiles de redes sociales',
+
+                    phrase4: 'Todos los elementos del paquete bàsico',
+                    phrase5: 'Base de datos, api',
+                    phrase6: 'Sin límite de páginas',
+
+                    phrase8: 'Adaptado a sus necesidades',
+
+                    phraseLast: 'Para más información, no dude en ponerse en contacto conmigo !',
                 },
                 politique: {
                     name: 'Política de privacidad :',
@@ -94,19 +115,19 @@ i18n.use(initReactI18next).init({
                     name: 'Thomas BORTOLATO',
                     title: 'Développeur Web',
                     titleDetail: 'Full-Stack',
-                    button: 'Réalisé votre Projet',
+                    button: 'Me contacté',
                 },
                 presentation: {
                     heading: 'Qui suis-je ?',
-                    about1: 'Je m\'appelle Thomas BORTOLATO, j\'ai 21 ans et je suis développeur web Full-Stack.',
-                    about2: 'Passionné par la création d\'applications web intuitives, j\'apporte mon expertise pour développer des expériences utilisateur de qualité. À la recherche de nouveaux projets stimulants, je suis disponible pour discuter de votre projet.',
+                    about1: 'Je m\'appelle Thomas BORTOLATO, j\'ai 22 ans et je suis développeur web Full-Stack.',
+                    about2: 'Passionné par la création d\'applications web, j\'apporte mon expertise pour développer des expériences utilisateur de qualité !',
                     button: 'Voir mon CV',
                 },
                 xp: {
                     name: 'Mon expérience',
                         experience1:{
                            title1: 'Développeur fullstack',
-                            date1: '2022 - a ce jour',
+                            date1: 'D\'avril 2022 à Octobre 2023',
                             location1: 'La tour du pin, Rhone-Alpes, france',
                             description1: 'Développement d\'une interface admin pour MobileBoost. Utilisation de technologies telles que HTML, CSS, JavaScript et PHP/MySQL.',
                         },
@@ -140,6 +161,9 @@ i18n.use(initReactI18next).init({
                 },
                 projects: {
                     name: 'Mes Projets',
+                    description: 'Détails du projet',
+                    projet1: 'DevPlanTech est un blog de sur l\'informatique en général. Il est réalisé avec Symfony 6 et MySQL. Il est responsive et possède un back-office pour la gestion des articles.',
+                    projet2: 'Hypana est un site pour des cours de Runing Yoga. Il est réalisé avec React.js et SCSS.'
                 },
                 contact: {
                     name: 'Contact',
@@ -157,6 +181,22 @@ i18n.use(initReactI18next).init({
                 footer: {
                     heading: 'Contact',
                     link: 'Politique de confidentialité',
+                },
+                services: {
+                    name: 'Mes Services',
+                    titre1: 'Forfait Starter',
+                    titre2: 'Forfait Pro',
+                    titre3: 'Solution Personnalisée',
+                    phraseLast: 'Pour plus de renseignements n\'hésiter pas à me contacter !',
+                    phrase1: 'Design Réactif pour Tous Appareils : Votre site web sera parfaitement adapté pour être consulté sur tous les appareils, qu\'il s\'agisse d\'ordinateurs, de tablettes ou de smartphones.',
+                    phrase2: 'Création de 5 Pages Essentielles : Inclut les pages fondamentales comme l\'Accueil, À propos, Services, Blog et Contact.',
+                    phrase3: 'Connectivité Médias Sociaux et Formulaires de Contact : Intégrez vos profils sur les réseaux sociaux et permettez à vos visiteurs de vous contacter facilement grâce à des formulaires intégrés.',
+
+                    phrase4: 'Tout ce qui est inclus dans le Forfait Starter : Bénéficiez de tous les avantages du Forfait Starter et plus encore.',
+                    phrase5: 'Intégration Base de Données & API : Vous avez besoin d\'un site plus dynamique ? Intégrez des bases de données et des API pour une expérience utilisateur enrichie.',
+                    phrase6: 'Sans Limite de Pages : Votre site peut s\'agrandir autant que nécessaire pour répondre à vos besoins.',
+
+                    phrase8: 'Complètement Sur Mesure : Discutons de vos besoins spécifiques et concevons ensemble la solution parfaite pour votre entreprise ou projet.',
                 },
                 politique: {
                     name: 'Politique de confidentialité :',

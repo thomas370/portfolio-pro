@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -310,8 +312,9 @@ template {
 }
 
 .skills {
-  padding: 100px 0;
-  background-color: #393E46;
+  flex-wrap: wrap;
+  padding: 5rem 0 3rem 0;
+  background-color: #222831;
 }
 .skills h2 {
   font-size: 2rem;
@@ -319,46 +322,32 @@ template {
   margin-bottom: 1.5rem;
   text-align: center;
   color: #e3ab27;
-  font-family: Roboto, sans-serif;
+  font-family: josefin Sans, sans-serif;
 }
-.skills .swiper-container {
+.skills .row {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-family: Roboto, sans-serif;
-  height: 800px;
-}
-.skills .swiper-slide {
-  display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  width: 300px;
-  height: 300px;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
 }
 .skills .skill {
+  margin: 1rem 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #222831;
-  border-radius: 10px;
+  background-color: #393E46;
+  border-radius: 1rem;
 }
 .skills .skill img {
-  width: 150px;
-  height: 150px;
+  width: 50%;
   margin-top: 1rem;
-  object-fit: cover;
 }
 .skills .skill p {
   font-size: 1.5rem;
   font-weight: 600;
   margin-top: 1rem;
   color: #f3f0f0;
-  font-family: Roboto, sans-serif;
+  font-family: josefin Sans, sans-serif;
 }
 @media (min-width: 768px) {
   .skills .swiper-container {
@@ -368,7 +357,7 @@ template {
   }
   .skills .swiper-slide {
     width: 300px;
-    background-color: #222831;
+    background-color: #393E46;
     margin: 10px;
     border-radius: 10px;
   }
@@ -385,7 +374,7 @@ template {
     font-weight: 600;
     margin-top: 1rem;
     color: #f3f0f0;
-    font-family: Roboto, sans-serif;
+    font-family: josefin Sans, sans-serif;
   }
 }
 
