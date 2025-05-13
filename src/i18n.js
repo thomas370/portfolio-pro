@@ -13,7 +13,7 @@ i18n.use(initReactI18next).init({
                 },
                 presentation: {
                     heading: '¿Quién soy yo?',
-                    about1: 'Me llamo Thomas BORTOLATO, tengo 22 años y soy desarrollador web Full-Stack.',
+                    about1: 'Me llamo Thomas BORTOLATO, tengo 23 años y soy desarrollador web Full-Stack.',
                     about2: 'Apasionado por la creación de aplicaciones web intuitivas, aporto mi experiencia en el desarrollo de experiencias de usuario de alta calidad !',
                     button: 'Ver mi CV',
                 },
@@ -119,7 +119,7 @@ i18n.use(initReactI18next).init({
                 },
                 presentation: {
                     heading: 'Qui suis-je ?',
-                    about1: 'Je m\'appelle Thomas BORTOLATO, j\'ai 22 ans et je suis développeur web Full-Stack.',
+                    about1: 'Je m\'appelle Thomas BORTOLATO, j\'ai 23 ans et je suis développeur web Full-Stack.',
                     about2: 'Passionné par la création d\'applications web, j\'apporte mon expertise pour développer des expériences utilisateur de qualité !',
                     button: 'Voir mon CV',
                 },

@@ -1,174 +1,110 @@
 @import '../../assets/scss/_colors.scss';
 @import '../../assets/scss/_typos.scss';
-@import '../../assets/scss/_normalize.scss';
 @import '../../assets/responsive/_responsive.scss';
 
 .projets {
-  padding: 100px 0;
+  padding: 2rem 1rem;
   background-color: $MarinBlue;
+  color: $white;
 
   h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
     text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    font-family: "Josefin Sans", sans-serif;
     color: $LightBlue;
-    font-family: josefin Sans, sans-serif;
   }
 
-  .projetsCards {
+  .projectList {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    flex-direction: column;
+    gap: 2rem;
 
-    .projetsCard {
-      width: 300px;
-      perspective: 1000px;
-      margin: 15px;
-      flex: 1 1 300px;
+    @include tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
 
-      .cardInner {
-        position: relative;
-        width: 100%;
-        height: 400px; /* La hauteur fixe est nécessaire pour éviter les débordements */
+  .projectCard {
+    background-color: $white;
+    border-radius: 10px;
+    overflow: hidden;
+    color: $MarinBlue;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    width: 100%;
+
+    @include tablet {
+      width: 45%; // 2 par ligne sur tablette
+    }
+
+    @include desktop {
+      width: 30%; // 3 par ligne sur desktop
+    }
+
+    img {
+      width: 100%; /* Assure que l'image occupe toute la largeur du conteneur */
+      height: 20rem; /* Hauteur fixe pour limiter la taille */
+        object-fit: cover; /* Recadre l'image pour remplir le conteneur */
+      object-position: center; /* Centre l'image dans son conteneur */
+      display: block; /* Supprime l'espace sous l'image */
+    }
+
+    .content {
+      padding: 1rem;
+
+      h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
         text-align: center;
-        transition: transform 0.6s;
-        transform-style: preserve-3d;
-        border-radius: 10px;
+        font-family: "Josefin Sans", sans-serif;
+      }
 
-        &:hover {
-          transform: rotatey(180deg);
-        }
+      .year {
+        font-size: 0.9rem;
+        color: $LightBlue;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
 
-        .cardFront, .cardBack {
-          position: absolute;
-          width: 100%;
-          height: 110%;
-          backface-visibility: hidden;
-          border-radius: 10px;
-        }
+      .description {
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
 
-        .cardFront {
-          background-color: $white;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        justify-content: center;
+        margin-bottom: 1rem;
 
-          img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-          }
-        }
-
-        .text {
-          display: flex;
-          justify-content: space-around;
-          padding: 10px;
-          background-color: $white;
-          border-radius: 10px 10px 0 0;
-
-          h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 1rem;
-            text-align: center;
-            color: $MarinBlue;
-            font-family: josefin Sans, sans-serif;
-          }
-
-          p {
-            color: $MarinBlue;
-            font-size: 1.2rem;
-            text-align: center;
-            font-family: josefin Sans, sans-serif;
-          }
-
-          .icons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            a {
-              color: $MarinBlue;
-              font-size: 1.5rem;
-              text-align: center;
-              text-decoration: none;
-              margin: 0 0.5rem;
-
-              &:hover {
-                color: $LightBlue;
-              }
-            }
-          }
-        }
-
-        .tags {
-          display: flex;
-          justify-content: center;
-          flex-wrap: wrap;
-          background-color: $white;
-          border-radius: 0 0 10px 10px;
-          padding: 10px 0;
-
-          p {
-            margin: 5px;
-            padding: 5px;
-            border: 1px solid $MarinBlue;
-            border-radius: 5px;
-            background-color: $white;
-            color: $MarinBlue;
-            font-size: 0.8rem;
-            font-weight: 600;
-            font-family: josefin Sans, sans-serif;
-          }
-        }
-
-        .cardBack {
-          background-color: $buttonBlue;
+        .tag {
+          background-color: $MarinBlue;
           color: $white;
-          transform: rotateY(180deg);
-          display: flex;
-          flex-direction: column;
-          border: $LightBlue solid 2px;
-          .text{
-            p{
-                font-size: 1.2rem;
-                text-align: center;
-                font-family: josefin Sans, sans-serif;
-                color : $MarinBlue;
-            }
-          }
-          .desc{
-            h4 {
-              font-size: 1.2rem;
-              font-weight: 600;
-              margin-bottom: 1rem;
-              text-align: center;
-              color: $white;
-              font-family: josefin Sans, sans-serif;
-            }
-            h3{
-              font-size: 1.2rem;
-              font-weight: 600;
-              margin-bottom: 1rem;
-              text-align: center;
-              color: $MarinBlue;
-              font-family: josefin Sans, sans-serif;
-            }
-            p {
-              color: $white;
-              font-size: 1.2rem;
-              text-align: center;
-              font-family: josefin Sans, sans-serif;
-              padding: 0 1rem;
-            }
-          }
+          padding: 0.2rem 0.5rem;
+          text-align: center;
+          border-radius: 5px;
+          font-size: 0.8rem;
+        }
+      }
+
+      .links {
+        display: flex;
+        gap: 1rem;
+
+        a {
+          color: $MarinBlue;
+          font-size: 1.2rem;
+
+          &:hover {
+            color: $LightBlue;
           }
         }
       }
     }
+  }
 }

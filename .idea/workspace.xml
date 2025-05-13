@@ -5,44 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="391a8475-d5d4-46b1-bcd6-d38d7ded9bdb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/devplanteck_mokup.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/Figma.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/MYsql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/NoSQL.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/React.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/express.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/nodeJS.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/CV_Thomas_Bortolato.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/public/CV_Thomas_Bortolato.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/mysql.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projet_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projet_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projet_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/projet_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/scss/_typos.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/_typos.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/Contact.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/Contact.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/NavBar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/NavBar.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/NavBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentation/Presentation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentation/Presentation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentation/Presentation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentation/Presentation.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentation/Presentation.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentation/Presentation.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/presentation/Presentation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/presentation/Presentation.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/projets/Projets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projets/Projets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projets/Projets.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projets/Projets.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projets/Projets.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projets/Projets.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/projets/Projets.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projets/Projets.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/Skills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/Skills.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/xp/Xp.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/xp/Xp.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/Home.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +36,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "thomas370"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/thomas370/portfolio-pro.git",
+    "accountId": "0468b3c1-ea80-47be-ad23-d98c67b38088"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,30 +59,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/Desktop/portfolio-pro&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\pc\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/thoma/Desktop/Side_projets/portfolio-pro",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.start.executor": "Run",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "C:\\Users\\thoma\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pc\Desktop\portfolio-pro\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\thoma\Desktop\Side_projets\portfolio-pro\public\images" />
       <recent name="C:\Users\pc\Desktop\portfolio-pro\public" />
     </key>
   </component>
@@ -128,7 +119,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.22855.79" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
       </set>
     </attachedChunks>
   </component>
@@ -190,6 +181,7 @@
       <workItem from="1723990530833" duration="25000" />
       <workItem from="1727004654688" duration="2607000" />
       <workItem from="1727211975412" duration="362000" />
+      <workItem from="1747119534943" duration="4733000" />
     </task>
     <servers />
   </component>
