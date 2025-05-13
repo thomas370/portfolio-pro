@@ -59,7 +59,7 @@ const NavBar = () => {
                                rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
                             <a href={"https://twitter.com/toollkyll"} target="_blank"
                                rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter}/></a>
-                            <a href='#' onClick={toggleLanguage}>
+                            <a href='accueil' onClick={toggleLanguage}>
                                 <img src={i18n.language === 'es' ? france : spain} alt={i18n.language}/>
                             </a>
                         </li>
