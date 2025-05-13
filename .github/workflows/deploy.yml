@@ -30,4 +30,5 @@ jobs:
           server: ftp-bortolato.alwaysdata.net
           username: bortolato
           password: ${{ secrets.ALWAYSDATA_FTP_PASSWORD }}
+          protocol: ftps
           local-dir: build/
