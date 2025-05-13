@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391a8475-d5d4-46b1-bcd6-d38d7ded9bdb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/NavBar.js" afterDir="false" />
-    </list>
+    <list default="true" id="391a8475-d5d4-46b1-bcd6-d38d7ded9bdb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +169,7 @@
       <workItem from="1747119534943" duration="4733000" />
       <workItem from="1747125299868" duration="1036000" />
       <workItem from="1747138999996" duration="849000" />
-      <workItem from="1747147235942" duration="1346000" />
+      <workItem from="1747147235942" duration="1755000" />
     </task>
     <servers />
   </component>

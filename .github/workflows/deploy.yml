@@ -32,3 +32,8 @@ jobs:
           password: ${{ secrets.ALWAYSDATA_FTP_PASSWORD }}
           protocol: ftps
           local-dir: build/
+          passive: true
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
